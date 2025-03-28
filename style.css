@@ -226,16 +226,10 @@ p {
   padding: 20px;
 }
 
-/* Секции резюме */
 .resume section {
   margin-bottom: 30px;
 }
 
-.resume h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  color: var(--text-primary);
-}
 
 .resume h2 {
   font-size: 1.8rem;
@@ -244,11 +238,11 @@ p {
 }
 
 .resume h3 {
-  font-size: 1.5rem;
+  font-size: 3.2rem;
   color: var(--text-primary);
   margin-bottom: 15px;
   padding-bottom: 5px;
-  border-bottom: 1px solid #06471f73;
+  border-bottom: 1px solid #06471f00;
 }
 
 .resume h4 {
@@ -272,6 +266,11 @@ p {
   max-width: 300px;
   margin: 0 auto;
   margin-left: 0;
+}
+
+.contacts h2 {
+  text-align: left;
+  margin-bottom: 15px;
 }
 
 .contacts h3 {
@@ -389,6 +388,8 @@ p {
 
 
 /*/=============================== Стили для галереи ================================ */
+
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -516,18 +517,12 @@ footer {
     padding: 15px;
   }
   
-  .resume h1 {
-    font-size: 1.8rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-  
   .resume h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   
-  .resume h3 {
+  .resume h1, h3 {
     font-size: 1.3rem;
     text-align: center;
     padding-bottom: 0.5rem;
@@ -610,6 +605,12 @@ footer {
     gap: 15px; 
     padding: 15px; 
   }
+  .gallery-title {
+    color: var(--primary-green);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
   
   .gallery-item {
     border-radius: 10px; 
@@ -677,3 +678,13 @@ footer {
   animation: fadeIn 0.4s ease-out forwards;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

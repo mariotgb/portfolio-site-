@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме</title>
+    <title>Биография</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Urbanist:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -15,37 +15,60 @@
             <h1 class="logo">biography</h1>
             <ul class="nav-links">
                 <li><a href="index.html" class="nav-link">Главная</a></li>
-                <li><a href="info.html" class="nav-link">Биография</a></li>
+                <li><a href="info.html" class="nav-link active">Биография</a></li>
                 <li><a href="resume.html" class="nav-link">Резюме</a></li>
                 <li><a href="gallery.html" class="nav-link">Галерея</a></li>
-                <li><a href="contacts.html" class="nav-link active">Контакты</a></li>
+                <li><a href="contacts.html" class="nav-link">Контакты</a></li>
             </ul>
         </header>
     </nav>
 
     <!-- Основной контент -->
     <main>
-        <section class="section-contacts">
-            <h1>Мои контакты:</h1>
-            
-            <nav class="nav-contacts">
-                <nav class="nav-contacts-info">
-                    <h2>GitHub</h2>
-                    <a href="https://github.com/mariotgb" target="_blank" rel="noopener noreferrer">
-                        Перейти в GitHub
-                    </a>
-                    <h2>Telegram</h2>
-                    <a href="https://t.me/angelzsbase" target="_blank" rel="noopener noreferrer">
-                        Перейти в Telegram
-                    </a>
-                </nav>
-            </nav>
+        <section class="bio-container">
+            <header class="bio-header">
+                <h1>Моя биография</h1>
+            </header>
+        
+            <section class="bio-content">
+                <h2 class="visually-hidden">Содержание</h2>
+                
+                <section class="bio-about">
+                    <h3>Кто я?</h3>
+                    <p>Привет! Меня зовут Александр. Я начинающий программист из г. Киров.</p>
+                    <p>Моя основная деятельность связана с написанием кода в разных сферах деятельности.</p>
+                </section>
+        
+                <section class="bio-facts">
+                    <h3>Ключевые факты:</h3>
+                    <ul class="facts-list">
+                        <li><strong>Дата рождения:</strong> 06.04.2006</li>
+                        <li><strong>Образование:</strong> ВятГУ, факультет автоматики и вычислительной техники, направление Безопасность автоматизированных систем (ИНБб-1301)</li>
+                        <li><strong>Основные навыки:</strong> Разработка игровых серверов на языке Pawn, работа с MySql, создание автоматизированных ферм на Android с помощью Python, написание чат-ботов в Telegram</li>
+                        <li><strong>Увлечения:</strong> Волейбол, музыка</li>
+                    </ul>
+                </section>
+        
+                <section class="bio-story">
+                    <h3>Мой путь:</h3>
+                    <p>Пробовать в программировании еще начал в 2 классе, как раз-таки связал свою дальнейшую деятельность с языком Pawn, он дал мне общее представление и понимание о программировании в целом, постепенно приходилось учиться работать сначала с файловой системой базы данных, потом с MySQL, писать свое API и т.д.</p>
+                    <p>Наибольших успехов я достиг в сфере разработки игровых серверов на языке Pawn, учавствовал в нескольких коммерческих проектах, которые успешно функционировали, а также принимал участие в Open-Source по рефакторингу мода крупного проекта (>650.000 пользователей на 2025 год).</p>
+                    <p>Сейчас я сосредоточен на учебе, ищу себя в чем-то новом.</p>
+                </section>
+            </section>
+        
+            <aside class="bio-quote">
+                <blockquote>
+                    "Отчаяться каждый может. А вот чтобы совладать с собой, нужно быть человеком."
+                    <cite>- Джон Стэйнбек, «Гроздья гнева»</cite>
+                </blockquote>
+            </aside>
         </section>
     </main>
 
     <!-- Подвал -->
     <footer>
-        <p>&copy; 2025  biography</p>
+        <p>&copy; 2025 biography</p>
     </footer>
 </body>
 </html>
