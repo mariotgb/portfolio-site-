@@ -569,6 +569,15 @@ footer {
     font-size: 1.25rem;
   }
 
+.experience li {
+  font-size: 1.55rem;
+}
+
+  .education p {
+    text-align: start;
+    font-size: 1.55rem;
+  }
+
   /*/================================ Биография ================================*/
 
   .bio-container {
